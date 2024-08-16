@@ -1,7 +1,127 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 .work-sans-normal {
   font-family: "Work Sans", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
 }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Common Styles */
 
+.h3-style {
+  font-size: 2.5rem;
+  font-weight: 700;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+}
+.display-flex {
+  display: flex;
+}
+.common-button {
+  padding: 16px 30px;
+  border-radius: 48px;
+  border: none;
+  background-color: #ff42a5;
+  color: white;
+  cursor: pointer;
+  font-size: 1rem;
+}
+.common-font-style-500 {
+  font-size: 1.12rem;
+  font-weight: 500;
+  color: rgba(83, 76, 100, 1);
+}
+.common-font-style-400 {
+  font-size: 1rem;
+  font-weight: 400;
+}
+/* Header Styles start  */
+
+/* nav styles start */
+nav {
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.05);
+}
+.gamer-logo {
+  gap: 15px;
+  align-items: center;
+}
+.gamer {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+.gamer-g {
+  color: #ff42a5;
+}
+.gamer-logo img {
+  width: 76px;
+  height: 36px;
+}
+.navigation {
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0px;
+  max-width: 85%;
+  margin: 0 auto;
+}
+.nav-first-menu {
+  gap: 25px;
+  align-items: center;
+}
+.nav-first-menu li {
+  list-style: none;
+}
+.nav-first-menu li a {
+  text-decoration: none;
+  color: rgba(60, 53, 79, 1);
+  font-size: 1rem;
+}
+.nav-second-menu {
+  gap: 10px;
+  background-color: rgba(11, 2, 35, 0.1);
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+/* banner styles start */
+.banner {
+  background-image: url(../Resources/Group\ 14.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.banner-container {
+  max-width: 85%;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+}
+.banner-container img{
+  width: 45%;
+}
+.banner-title {
+  font-size: 2.7rem;
+  font-weight: 600;
+}
+.banner-subtitle {
+  font-size: 5.4rem;
+  font-weight: 800;
+  background: linear-gradient(#f948b2, #8758f1);
+  background-clip: text;
+  color: transparent;
+  text-shadow: 0px 4px 4px rgb(0, 0, 0, 0.25);
+}
+.icon-container{
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.icon-content{
+  gap: 15px;
+}
+.banner-button-two {
+  background-color: rgba(78, 197, 247, 1);
+  margin-left: 12px;
+}
